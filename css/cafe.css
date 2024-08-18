@@ -1,0 +1,403 @@
+/*------------------------------Universal------------------------*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+/*-------------------------------nav----------------------------*/
+
+/*----------------------font-family: 'Playfair Display', serif;----------*/
+nav {
+  height: 5.6rem;
+  background-color: rgb(247, 229, 210);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+nav .text-1 p:nth-child(1) {
+  width: 2.2rem;
+  height: 3.3rem;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+nav .text-1 p:nth-child(2) {
+  width: 4.5rem;
+  height: 3.3rem;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+nav .text-1 sup {
+  font-size: 1.3rem;
+}
+nav .text-1 sub {
+  position: relative;
+  bottom: 2.8rem;
+}
+/*----------------------------navbar-------------------------*/
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  position: relative;
+  left: 15rem;
+}
+ul a {
+  color: black;
+  width: 3.6rem;
+  height: 2.6rem;
+  font-size: 1rem;
+  padding-left: 2.5rem;
+}
+nav .icon {
+  margin-right: 1rem;
+  width: 6.9rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+nav .icon i {
+  width: 1.6rem;
+  height: 1.6rem;
+  font-size: 2.5rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+nav .icon a {
+  width: 3.5rem;
+  height: 1.8rem;
+  font-size: 1rem;
+}
+/*-----------------------------------first-----------------------------------*/
+.first {
+  height: 100vh;
+  background: url(../images/nathan-dumlao-6VhPY27jdps-unsplash.jpg) no-repeat
+    center center/cover;
+}
+.first-text {
+  width: 16rem;
+  height: 1.8rem;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.first .text-2 {
+  width: 47.5rem;
+  height: 11.75rem;
+  font-size: 4.3rem;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 4rem;
+}
+.first .first-box {
+  padding-top: 7rem;
+  padding-left: 7rem;
+}
+
+/*---------------------------------second-----------------------------------*/
+
+.second p:nth-child(1) {
+  width: 27rem;
+  height: 6rem;
+  font-size: 4.4rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+}
+.second p:nth-child(2) {
+  width: 27.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+.second p:nth-child(3) {
+  width: 25rem;
+  height: 3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+}
+.second .image-1 {
+  background: url(../images/bg2.jpg) no-repeat center center/cover;
+  width: 39.78rem;
+  height: 28.87rem;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second .btn {
+  width: 10rem;
+  height: 3.1rem;
+  font-size: 1rem;
+  color: black;
+  border: 2px solid black;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+}
+/*--------------------------third--------------------------------*/
+
+.third p:nth-child(1) {
+  width: 27rem;
+  height: 6rem;
+  font-size: 4.4rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+}
+.third p:nth-child(2) {
+  width: 27.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+.third p:nth-child(3) {
+  width: 25rem;
+  height: 3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+}
+.third .image-2 {
+  background: url(../images/bg3.jpg) no-repeat center center/cover;
+  width: 44.5rem;
+  height: 28.87rem;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third .btn {
+  width: 10rem;
+  height: 3.1rem;
+  font-size: 1rem;
+  color: black;
+  border: 2px solid black;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+}
+
+/*------------------------------------fourth-----------------------------*/
+
+.fourth p:nth-child(1) {
+  width: 27rem;
+  height: 6rem;
+  font-size: 4.4rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+}
+.fourth p:nth-child(2) {
+  width: 27.5rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+.fourth p:nth-child(3) {
+  width: 25rem;
+  height: 3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+}
+.fourth .image-3 {
+  background: url(../images/bg4.jpg) no-repeat center center/cover;
+  width: 39.78rem;
+  height: 28.87rem;
+}
+.fourth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourth .btn {
+  width: 10rem;
+  height: 3.1rem;
+  font-size: 1rem;
+  color: black;
+  border: 2px solid black;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
+}
+/*------------------------------fifth------------------------------*/
+.fifth {
+  padding-bottom: 4rem;
+  background-color: rgb(247, 229, 210);
+}
+.fifth .head-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+.fifth .first-1 {
+  width: 48rem;
+  height: 5rem;
+  font-size: 3.75rem;
+  font-family: 'Playfair Display', serif;
+  margin-left: 25rem;
+  font-weight: 700;
+  padding-top: 6rem;
+}
+.fifth .same {
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.7rem;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 4rem;
+}
+.fifth .para-1 {
+  border-right: 3px solid black;
+  position: relative;
+  right: 5rem;
+  top: 0.4rem;
+  padding-right: 4rem;
+}
+.fifth .para-1 p {
+  line-height: 25px;
+}
+.fifth .para-2 p {
+  line-height: 25px;
+}
+.fifth .para-2 {
+  position: relative;
+  left: 4rem;
+}
+
+/*--------------------------------------sixth---------------------------*/
+.sixth {
+  height: 16.25rem;
+  display: flex;
+}
+
+.sixth div {
+  width: 20%;
+  height: 16.25rem;
+  border: 1px solid black;
+}
+.sixth div:first-child {
+  background: url(../images/bg5.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+}
+.sixth div:nth-child(2) {
+  background: url(../images/bg6.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+}
+.sixth div:nth-child(3) {
+  background: url(../images/bg7.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+}
+.sixth div:nth-child(4) {
+  background: url(../images/bg8.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+}
+.sixth div:last-child {
+  background: url(../images/bg9.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+}
+/*---------------------------------seven-------------------------------*/
+
+.seven {
+  background-color: #404d3c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 26rem;
+  color: white;
+}
+.seven-a p:nth-child(1) {
+  width: 8rem;
+  height: 6rem;
+  font-size: 1.7rem;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 2.5rem;
+}
+
+.seven-a p:nth-child(3) {
+  width: 16rem;
+  height: 3.25rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.8rem;
+}
+input {
+  width: 13rem;
+  height: 2.5rem;
+  margin-top: 0.1rem;
+}
+.seven-a .equal .btn {
+  width: 5.8rem;
+  height: 2.5rem;
+  font-size: 0.83rem;
+}
+/*---seven-b--*/
+.seven-b p:nth-child(1) {
+  width: 8rem;
+  height: 6rem;
+  font-size: 1.68rem;
+  padding-bottom: 6rem;
+}
+.seven-b p:nth-child(2) {
+  width: 9.3rem;
+  height: 1.8rem;
+  font-size: 1rem;
+  padding-bottom: 1px;
+  position: relative;
+  top: 1.5rem;
+}
+.seven-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.seven-c a {
+  color: white;
+  width: 14.5rem;
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+footer {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+/*--------------------------------utility--------------------*/
+.btn {
+  width: 10rem;
+  height: 3.1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
